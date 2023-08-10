@@ -1,12 +1,14 @@
-package com.exceptiondemo;
+package com.assignmentexception;
+//4. WAP to show checked exception and use multiple catch block with universal
+//Exception handler.
 
-public class MultipleCatchBlock {
+public class CheckedException4 {
 
 	public static void main(String[] args) {
 		String name=null;
-		int num[]= {4,5,6};
+		int num[]= {4,3,1};
 		int a=10;
-		int b=2;
+		int b=0;
 		
 		try {
 			int div= a/b;
@@ -34,4 +36,7 @@ public class MultipleCatchBlock {
 
 	}
 
+		
 }
+
+
